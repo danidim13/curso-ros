@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+import simple_module.node
+
+def main():
+    node = simple_module.node.Node()
+    node.run()
+
+if __name__ == '__main__':
+    main()
